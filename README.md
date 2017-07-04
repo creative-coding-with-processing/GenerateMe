@@ -1,12 +1,15 @@
-# generateme
+# GenerateMe
 Processing scripts used to generative glitch / art / design
 
-http://generateme.tumblr.com
-https://www.facebook.com/generateme
+  * http://generateme.tumblr.com
+  * https://github.com/Clojure2D/clojure2d
 
 generateme.blog@gmail.com
 
+clone recursively ```git clone --recursive https://github.com/tsulej/GenerateMe.git```
+
 Detailed instructions inside scripts, examples included
+All below works on latest Processing 2 only! For Processing 3 versions see bottom.
 
 List:
   * decayscreen - decay image, based on XScreenSaver hack with the same name
@@ -34,5 +37,16 @@ List:
   * blendimages - blend source image set into target
   * threadraw - draw vertical threads based on image (similar to generative draw)
   * decompose_paint - decompose image into sqares/rectangles and fill it with some pattern
+  * imsyntex - reconstruct image using texture synthesis algorithm
+  * fm - frequency modulation and demodulation
+  * composite_video_simulator - very precise VHS/Composite Video/Tape simulation, based on: https://github.com/joncampbell123/composite-video-simulator
+  * Obj2Raw - convert OBJ vertex data to RAW 8 bit signed (for sonification purposes)
+  * granularresynth - Granular (re)synthesis of any RAW using other RAWs for visual/audio
+  * -> sonification - image sonification 
+  * -> GLIC - glitch image codec
   * TEMPLATE - clean template sketch with some predefined functions
-  
+
+## Processing 3
+
+  * pixeldrifter - provided by https://github.com/romanrandom
+  * pngglitch
